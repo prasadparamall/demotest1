@@ -101,7 +101,7 @@ public class CustomListeners extends BaseClass implements ITestListener,ISuiteLi
 		 
 		try {
 			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
-					+ ":8080/job/test1/Extent_20Report/";
+					+ ":8080/job/demotest1/Extent_20Report/";
 			
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
